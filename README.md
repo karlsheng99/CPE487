@@ -9,4 +9,4 @@ Links:
 
 [Course Website](https://sites.google.com/view/ece487/home?authuser=0)
 
-[Personal Website](https://sit.instructure.com/courses/38886)
+[Personal Website](https://sites.google.com/stevens.edu/zikangsheng)
