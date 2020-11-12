@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1605152311">
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1605155518">
   <File Type="BITSTR-BMM" Name="hexcount_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="hexcount_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="hexcount_timing_summary_init.rpt"/>

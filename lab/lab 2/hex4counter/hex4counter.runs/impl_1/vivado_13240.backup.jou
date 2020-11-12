@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Nov 11 23:32:07 2020
+# Process ID: 13240
+# Current directory: D:/OneDrive - stevens.edu/Stevens/2020 Fall/CPE 487/CPE487_dsd/lab/lab 2/hex4counter/hex4counter.runs/impl_1
+# Command line: vivado.exe -log hexcount.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source hexcount.tcl -notrace
+# Log file: D:/OneDrive - stevens.edu/Stevens/2020 Fall/CPE 487/CPE487_dsd/lab/lab 2/hex4counter/hex4counter.runs/impl_1/hexcount.vdi
+# Journal file: D:/OneDrive - stevens.edu/Stevens/2020 Fall/CPE 487/CPE487_dsd/lab/lab 2/hex4counter/hex4counter.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source hexcount.tcl -notrace

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1605152307">
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1605155463">
   <File Type="PA-TCL" Name="hexcount.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="hexcount_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="hexcount_reports.tcl"/>
