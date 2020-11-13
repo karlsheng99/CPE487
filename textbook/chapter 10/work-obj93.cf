@@ -1,0 +1,15 @@
+v 4
+file . "functions.vhdl" "bfb40f70b3567b6ee84ac83d68721cd0fbb0f53e" "20201113234718.774":
+  entity mux2t1 at 4( 42) + 0 on 17;
+  architecture behave of mux2t1 at 15( 282) + 0 on 18;
+  entity reg8 at 24( 457) + 0 on 19;
+  architecture behave of reg8 at 35( 686) + 0 on 20;
+file . "ex24.vhdl" "6577e58d0aae8d55a2b49fdfb79450a0259e63c6" "20201113232243.364":
+  entity ex24 at 1( 0) + 0 on 13;
+  architecture behave of ex24 at 12( 251) + 0 on 14;
+file . "ex23.vhdl" "0e8ddb768bd20e8098266b8773907d6a92c1ed4f" "20201113231156.675":
+  entity ex23 at 1( 0) + 0 on 11;
+  architecture behave of ex23 at 12( 229) + 0 on 12;
+file . "ex25.vhdl" "8df20e6c9bdd0a74c30494fec9a64e9b81909ff0" "20201113233641.924":
+  entity ex25 at 1( 0) + 0 on 15;
+  architecture behave of ex25 at 12( 251) + 0 on 16;
