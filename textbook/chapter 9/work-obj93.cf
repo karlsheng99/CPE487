@@ -1,0 +1,15 @@
+v 4
+file . "functions.vhdl" "4693ecd64cce61031f56f1cadee63c69614c4c49" "20201113230232.546":
+  entity big_xnor at 1( 0) + 0 on 29;
+  architecture ckt1 of big_xnor at 14( 268) + 0 on 30;
+  entity big_and3 at 19( 374) + 0 on 31;
+  architecture ckt1 of big_and3 at 31( 662) + 0 on 32;
+file . "ex22.vhdl" "e1c3a4021bb06149db30b69eea9aa0938e53c61e" "20201113230108.958":
+  entity ex22 at 1( 0) + 0 on 27;
+  architecture behave of ex22 at 12( 223) + 0 on 28;
+file . "3_a.vhdl" "d81dc34869bcec5a5c83cf094ee7de41a6402508" "20201113225705.659":
+  entity ex_3_a at 1( 0) + 0 on 21;
+  architecture exercise of ex_3_a at 9( 143) + 0 on 22;
+file . "3_a_tb.vhdl" "320e216cb7d0a863015563535454078bd35acc1f" "20201113225718.074":
+  entity ex_3_a_tb at 1( 0) + 0 on 25;
+  architecture test of ex_3_a_tb at 7( 86) + 0 on 26;
