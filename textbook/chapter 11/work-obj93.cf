@@ -1,0 +1,4 @@
+v 4
+file . "ex26.vhdl" "4e20c38913455b5ee406dd4f9e651e232f0ca045" "20201114000306.853":
+  entity ex26 at 1( 0) + 0 on 11;
+  architecture behave of ex26 at 12( 188) + 0 on 12;
