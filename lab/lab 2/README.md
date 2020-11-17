@@ -3,7 +3,7 @@ Built a four-digit (16-bit) counter to display its value on 7-segment displays.
 
 ![demo](hex4counter/demo/demo1.gif)
 
-## Update:
+## Modifications:
 * Reversed the counter by modifying the constraint file. (./hex4counter/hex4counter.srcs/constrs_1/new/hexcount.xdc)
     
     ```diff
