@@ -1,5 +1,5 @@
 # Lab 3: Bouncing Ball
-Programed the FPGA to display a "bouncing ball" on a 800x600 Video Graphics Array (VGA) monitor
+Programed the FPGA to display a "bouncing ball" on a 800x600 Video Graphics Array (VGA) monitor.
 
 ![demo](vgaball/demo/demo1.gif)
 
@@ -29,9 +29,9 @@ Modified file located at (.\vgaball\vgaball.srcs\sources_1\new\ball.vhd)
 	-    (pixel_col <= ball_x + size) AND
 	-    (pixel_row >= ball_y - size) AND
 	-    (pixel_row <= ball_y + size) THEN
-	-       ball_on <= '1';
+	-    ball_on <= '1';
 	- ELSE
-	-		ball_on <= '0';
+	-    ball_on <= '0';
 	- END IF;
 
     + VARIABLE x : INTEGER;
