@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Nov 21 00:04:51 2020
+# Process ID: 13628
+# Current directory: D:/OneDrive - stevens.edu/Stevens/2020 Fall/CPE 487/CPE487_dsd/lab/lab 5/siren/siren.runs/synth_1
+# Command line: vivado.exe -log siren.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source siren.tcl
+# Log file: D:/OneDrive - stevens.edu/Stevens/2020 Fall/CPE 487/CPE487_dsd/lab/lab 5/siren/siren.runs/synth_1/siren.vds
+# Journal file: D:/OneDrive - stevens.edu/Stevens/2020 Fall/CPE 487/CPE487_dsd/lab/lab 5/siren/siren.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source siren.tcl -notrace
