@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Dec 14 00:50:44 2020
+# Process ID: 5336
+# Current directory: D:/OneDrive - stevens.edu/Stevens/2020 Fall/CPE 487/CPE487_dsd/project/AudioVisualEqualizer/AudioVisualEqualizer.runs/impl_1
+# Command line: vivado.exe -log audio_visual_equalizer.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source audio_visual_equalizer.tcl -notrace
+# Log file: D:/OneDrive - stevens.edu/Stevens/2020 Fall/CPE 487/CPE487_dsd/project/AudioVisualEqualizer/AudioVisualEqualizer.runs/impl_1/audio_visual_equalizer.vdi
+# Journal file: D:/OneDrive - stevens.edu/Stevens/2020 Fall/CPE 487/CPE487_dsd/project/AudioVisualEqualizer/AudioVisualEqualizer.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source audio_visual_equalizer.tcl -notrace
