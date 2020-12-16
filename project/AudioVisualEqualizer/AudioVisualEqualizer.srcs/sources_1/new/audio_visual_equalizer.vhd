@@ -9,7 +9,7 @@ entity audio_visual_equalizer is
     Port ( clk_in : in STD_LOGIC;
     -- microphone signals
            micData : in STD_LOGIC;
-           micClk: out STD_LOGIC;  -- microphone clk (3.072MHz)
+           micClk: out STD_LOGIC;  -- microphone clk
            micLRSel: out STD_LOGIC;  -- microphone sel (0 for micClk rising edge)
     -- VGA signals
            vga_red : out  STD_LOGIC_VECTOR (3 downto 0);

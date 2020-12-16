@@ -49,7 +49,7 @@ BEGIN
     mball : PROCESS
     BEGIN
         WAIT UNTIL rising_edge(v_sync);
-        -- allow for bounce off top or bottom of screen
+        
         if motion = 0 then ball_y <=   CONV_STD_LOGIC_VECTOR(125, 11) ;
         elsif motion = 1 then ball_y <=   CONV_STD_LOGIC_VECTOR(150, 11);
         elsif motion = 2 then ball_y <=   CONV_STD_LOGIC_VECTOR(175, 11);
@@ -70,7 +70,6 @@ BEGIN
         end if;
         
         
-        --ball_y <= ball_y + ball_y_motion; -- compute next ball position
     END PROCESS;
   
 end Behavioral;

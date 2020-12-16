@@ -9,7 +9,7 @@
     <Object name="xc7a100t_0" gui_info="">
       <Properties Property="FULL_PROBES.FILE" value=""/>
       <Properties Property="PROBES.FILE" value=""/>
-      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/audio_visual_equalizer.bit"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="D:/Downloads/FZQ0ATYI7CCG7TY/Nexys4DdrSpectralSources/bin/Nexys4/TopNexys4Spectral.bit"/>
       <Properties Property="SLR.COUNT" value="1"/>
     </Object>
   </ObjectList>
