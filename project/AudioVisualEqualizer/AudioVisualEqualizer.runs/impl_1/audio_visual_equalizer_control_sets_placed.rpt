@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date         : Mon Dec 14 00:51:25 2020
+| Date         : Thu Dec 31 17:12:33 2020
 | Host         : DESKTOP-OVMD9EA running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file audio_visual_equalizer_control_sets_placed.rpt
 | Design       : audio_visual_equalizer
@@ -23,11 +23,11 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Total control sets                                       |    10 |
-|    Minimum number of control sets                        |    10 |
+| Total control sets                                       |    11 |
+|    Minimum number of control sets                        |    11 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
-| Unused register locations in slices containing registers |    43 |
+| Unused register locations in slices containing registers |    57 |
 +----------------------------------------------------------+-------+
 * Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
 ** Run report_qor_suggestions for automated merging and remapping suggestions
@@ -39,15 +39,15 @@ Table of Contents
 +--------------------+-------+
 |       Fanout       | Count |
 +--------------------+-------+
-| Total control sets |    10 |
+| Total control sets |    11 |
 | >= 0 to < 4        |     3 |
-| >= 4 to < 6        |     1 |
+| >= 4 to < 6        |     0 |
 | >= 6 to < 8        |     1 |
-| >= 8 to < 10       |     0 |
-| >= 10 to < 12      |     2 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     1 |
 | >= 12 to < 14      |     0 |
 | >= 14 to < 16      |     0 |
-| >= 16              |     3 |
+| >= 16              |     5 |
 +--------------------+-------+
 * Control sets can be remapped at either synth_design or opt_design
 
@@ -58,31 +58,32 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              35 |           14 |
+| No           | No                    | No                     |              51 |           17 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |              18 |            6 |
-| Yes          | No                    | No                     |              38 |           10 |
+| No           | Yes                   | No                     |              19 |            8 |
+| Yes          | No                    | No                     |              71 |           24 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |              10 |            3 |
+| Yes          | Yes                   | No                     |               2 |            2 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
 4. Detailed Control Set Information
 -----------------------------------
 
-+-----------------------------+----------------------+-------------------+------------------+----------------+--------------+
-|         Clock Signal        |     Enable Signal    |  Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
-+-----------------------------+----------------------+-------------------+------------------+----------------+--------------+
-|  clk_wiz_0_inst/U0/clk_out1 |                      | vga_driver/hsync0 |                1 |              1 |         1.00 |
-|  clk_wiz_0_inst/U0/clk_out1 | vga_driver/eqOp      |                   |                1 |              1 |         1.00 |
-|  vga_driver/vga_vsync_OBUF  |                      |                   |                2 |              3 |         1.50 |
-|  clk_in_IBUF_BUFG           |                      |                   |                1 |              5 |         5.00 |
-|  vga_driver/vga_vsync_OBUF  |                      | mic/eqOp          |                1 |              6 |         6.00 |
-|  clk_wiz_0_inst/U0/clk_out1 | vga_driver/eqOp      | vga_driver/v_cnt0 |                3 |             10 |         3.33 |
-|  clk_wiz_0_inst/U0/clk_out1 |                      | vga_driver/clear  |                4 |             11 |         2.75 |
-|  clk_in_IBUF_BUFG           | mic/data[15]_i_1_n_0 |                   |                4 |             16 |         4.00 |
-|  clk_in_IBUF_BUFG           | mic/eqOp_0           |                   |                5 |             21 |         4.20 |
-|  clk_wiz_0_inst/U0/clk_out1 |                      |                   |               11 |             27 |         2.45 |
-+-----------------------------+----------------------+-------------------+------------------+----------------+--------------+
++-----------------------------+-------------------------------------+----------------------+------------------+----------------+--------------+
+|         Clock Signal        |            Enable Signal            |   Set/Reset Signal   | Slice Load Count | Bel Load Count | Bels / Slice |
++-----------------------------+-------------------------------------+----------------------+------------------+----------------+--------------+
+|  clk_wiz_0_inst/U0/clk_out1 |                                     | vga_driver/vsync0    |                1 |              1 |         1.00 |
+|  clk_wiz_0_inst/U0/clk_out1 |                                     | vga_driver/hsync0    |                1 |              1 |         1.00 |
+|  clk_wiz_0_inst/U0/clk_out1 | vga_driver/eqOp                     | vga_driver/v_cnt0    |                2 |              2 |         1.00 |
+|  clk_in_IBUF_BUFG           |                                     | Deserializer/clk_int |                2 |              6 |         3.00 |
+|  clk_wiz_0_inst/U0/clk_out1 | vga_driver/eqOp                     |                      |                3 |              9 |         3.00 |
+|  clk_wiz_0_inst/U0/clk_out1 |                                     | vga_driver/clear     |                4 |             11 |         2.75 |
+|  clk_in_IBUF_BUFG           | Deserializer/data_o[15]_i_1_n_0     |                      |                5 |             16 |         3.20 |
+|  clk_in_IBUF_BUFG           | Deserializer/pdm_clk_rising_reg_n_0 |                      |                6 |             21 |         3.50 |
+|  clk_wiz_0_inst/U0/clk_out1 |                                     |                      |                9 |             25 |         2.78 |
+|  clk_in_IBUF_BUFG           | add_ball/eqOp                       |                      |               10 |             25 |         2.50 |
+|  clk_in_IBUF_BUFG           |                                     |                      |                8 |             26 |         3.25 |
++-----------------------------+-------------------------------------+----------------------+------------------+----------------+--------------+
 
 

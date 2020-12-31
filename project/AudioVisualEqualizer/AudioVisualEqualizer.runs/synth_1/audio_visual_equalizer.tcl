@@ -88,9 +88,9 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
+  {D:/OneDrive - stevens.edu/Stevens/2020 Fall/CPE 487/CPE487_dsd/project/AudioVisualEqualizer/AudioVisualEqualizer.srcs/sources_1/new/PdmDes.vhd}
   {D:/OneDrive - stevens.edu/Stevens/2020 Fall/CPE 487/CPE487_dsd/project/AudioVisualEqualizer/AudioVisualEqualizer.srcs/sources_1/imports/new/clk_wiz_0.vhd}
   {D:/OneDrive - stevens.edu/Stevens/2020 Fall/CPE 487/CPE487_dsd/project/AudioVisualEqualizer/AudioVisualEqualizer.srcs/sources_1/imports/new/clk_wiz_0_clk_wiz.vhd}
-  {D:/OneDrive - stevens.edu/Stevens/2020 Fall/CPE 487/CPE487_dsd/project/AudioVisualEqualizer/AudioVisualEqualizer.srcs/sources_1/new/deserializer.vhd}
   {D:/OneDrive - stevens.edu/Stevens/2020 Fall/CPE 487/CPE487_dsd/project/AudioVisualEqualizer/AudioVisualEqualizer.srcs/sources_1/new/display.vhd}
   {D:/OneDrive - stevens.edu/Stevens/2020 Fall/CPE 487/CPE487_dsd/project/AudioVisualEqualizer/AudioVisualEqualizer.srcs/sources_1/imports/new/vga_sync.vhd}
   {D:/OneDrive - stevens.edu/Stevens/2020 Fall/CPE 487/CPE487_dsd/project/AudioVisualEqualizer/AudioVisualEqualizer.srcs/sources_1/new/audio_visual_equalizer.vhd}
