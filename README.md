@@ -2,6 +2,7 @@
 This repository contains coursework from Digital System Design including:
 * Examples from textbook
 * Labs
+* Project
 
 ---
 
